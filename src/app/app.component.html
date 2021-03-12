@@ -1,0 +1,10 @@
+<div class="top-menu">
+  <img
+    class="logo"
+    src="https://www.ndsu.edu/fileadmin/www.ur.ndsu.edu/logo_usage/NDSU.oneline.jpg"
+  />
+</div>
+
+<div class="courses">
+  <app-course-card *ngFor="let c of courseList" [course]="c"></app-course-card>
+</div>
